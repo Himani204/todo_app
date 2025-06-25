@@ -27,9 +27,9 @@ class _ProfilePageState extends State<ProfilePage> {
             const SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('Edit Profile hunxa!')),
-                );
+                ScaffoldMessenger.of(
+                  context,
+                ).showSnackBar(const SnackBar(content: Text('Edit!')));
               },
               child: const Text('Edit Profile'),
             ),
