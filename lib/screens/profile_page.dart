@@ -17,11 +17,11 @@ class _ProfilePageState extends State<ProfilePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              'Himani',
+              'Himani- uknown',
               style: TextStyle(
-                fontSize: 24,
+                fontSize: 34,
                 fontWeight: FontWeight.bold,
-                color: Colors.blue,
+                color: Colors.red,
               ),
             ),
             const SizedBox(height: 10),
