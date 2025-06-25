@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         children: [
           Text(
-            'hi!',
+            'hello santos!',
             style: TextStyle(
               fontSize: 33,
               fontWeight: FontWeight.bold,
