@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           SizedBox(height: 20),
-          Icon(Icons.star, size: 50, color: Colors.amber),
+          Icon(Icons.star, size: 50, color: Colors.blue),
           ElevatedButton(
             onPressed: () {
               Navigator.push(
