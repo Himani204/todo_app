@@ -11,7 +11,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('SoftAura')),
+      appBar: AppBar(title: const Text('SoftAura-v1.0')),
       body: Column(
         children: [
           Text(
@@ -23,6 +23,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           SizedBox(height: 20),
+          Icon(Icons.star, size: 50, color: Colors.amber),
           ElevatedButton(
             onPressed: () {
               ScaffoldMessenger.of(
