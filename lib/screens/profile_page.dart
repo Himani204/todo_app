@@ -18,7 +18,11 @@ class _ProfilePageState extends State<ProfilePage> {
           children: [
             const Text(
               'Himani',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+              ),
             ),
             const SizedBox(height: 10),
             ElevatedButton(
