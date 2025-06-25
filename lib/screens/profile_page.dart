@@ -21,14 +21,14 @@ class _ProfilePageState extends State<ProfilePage> {
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
-                color: Colors.blue,
+                color: Colors.orange,
               ),
             ),
             const SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {
                 ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('Edit Profile Pressed!')),
+                  const SnackBar(content: Text('Edit Profile hunxa!')),
                 );
               },
               child: const Text('Edit Profile'),
